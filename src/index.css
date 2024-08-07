@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body[dir="rtl"] {
+  text-align: right;
+}
+
+body[dir="ltr"] {
+  text-align: left;
+}

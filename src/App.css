@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Optional: Apply styles to other components based on theme */
+.bg-light {
+  background-color: white !important;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.text-light {
+  color: white !important;
+}
+
+.text-dark {
+  color: black !important;
+}
